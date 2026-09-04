@@ -184,6 +184,12 @@ CSVの項目はアップロードと同様のフォーマットとする。
 
 [https://www.notion.so/deltax-inc/24fe2a3ec6ba803aae9dccca2143f10a?source=copy_link#2c6e2a3ec6ba802d82f8d0ed7722328c](https://www.notion.so/deltax-inc/24fe2a3ec6ba803aae9dccca2143f10a?source=copy_link#2c6e2a3ec6ba802d82f8d0ed7722328c)
 
+CSVの命名規則は以下とする。
+
+`notification_mail_{YYYYMMDD}_{hhmmss}.csv` 
+
+文字コードは`UTF-8 (BOMつき)`とする。
+
 ## 通知先グループ管理
 
 通知先メールアドレスをグループ管理できるようにする。
